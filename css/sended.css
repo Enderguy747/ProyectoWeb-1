@@ -1,0 +1,212 @@
+body:hover * {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  
+  @-webkit-keyframes bg {
+    10%, 100% {
+      background-color: #333;
+    }
+    50%, 95% {
+      background-color: #112461;
+    }
+  }
+  
+  @keyframes bg {
+    10%, 100% {
+      background-color: #333;
+    }
+    50%, 95% {
+      background-color: #112461;
+    }
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: bg 3s 1s infinite both;
+            animation: bg 3s 1s infinite both;
+    background-color: #333;
+  }
+  
+  @-webkit-keyframes sending {
+    0% {
+      background-color: white;
+    }
+    50%, 100% {
+      background-color: #FFD165;
+    }
+    50% {
+      transform: scale(1) rotate(90deg);
+    }
+    60% {
+      transform: rotate(90deg);
+    }
+    100% {
+      transform: translateY(-500px) rotate(90deg);
+    }
+  }
+  
+  @keyframes sending {
+    0% {
+      background-color: white;
+    }
+    50%, 100% {
+      background-color: #FFD165;
+    }
+    50% {
+      transform: scale(1) rotate(90deg);
+    }
+    60% {
+      transform: rotate(90deg);
+    }
+    100% {
+      transform: translateY(-500px) rotate(90deg);
+    }
+  }
+  .mail {
+    width: 100px;
+    height: 150px;
+    -webkit-animation: sending 3s 1s infinite;
+            animation: sending 3s 1s infinite;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3) both;
+    background-color: #fff;
+  }
+  
+  @-webkit-keyframes cover {
+    10% {
+      left: calc( 50% - 150px);
+    }
+    60%, 100% {
+      left: calc( 50% - 60px);
+    }
+  }
+  
+  @keyframes cover {
+    10% {
+      left: calc( 50% - 150px);
+    }
+    60%, 100% {
+      left: calc( 50% - 60px);
+    }
+  }
+  .cover {
+    background-color: #E0A720;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: calc( 50% - 120px);
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-animation: cover 3s 1s infinite both;
+            animation: cover 3s 1s infinite both;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  @-webkit-keyframes stampAni {
+    0%, 40% {
+      opacity: 0;
+      transform: scale(1.1);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes stampAni {
+    0%, 40% {
+      opacity: 0;
+      transform: scale(1.1);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .stamp {
+    width: 20px;
+    height: 30px;
+    border: solid 3px white;
+    background-color: #FF6025;
+    -webkit-animation: stampAni 3s 1s infinite both;
+            animation: stampAni 3s 1s infinite both;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 100;
+  }
+  
+  @-webkit-keyframes content {
+    10% {
+      opacity: 1;
+    }
+    30%, 100% {
+      opacity: 0;
+      transform: scaleX(0.7);
+    }
+  }
+  
+  @keyframes content {
+    10% {
+      opacity: 1;
+    }
+    30%, 100% {
+      opacity: 0;
+      transform: scaleX(0.7);
+    }
+  }
+  .contents {
+    padding: 10px;
+  }
+  .contents .c {
+    height: 8px;
+    margin-top: 10px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-animation: content 3s 1s infinite both;
+            animation: content 3s 1s infinite both;
+  }
+  .contents .c.l {
+    width: 60px;
+  }
+  .contents .c.orange {
+    background-color: #FF6025;
+  }
+  
+  @-webkit-keyframes opacityTitle {
+    0%, 70% {
+      opacity: 0;
+      letter-spacing: 5px;
+    }
+    80% {
+      opacity: 1;
+      letter-spacing: 2px;
+    }
+  }
+  
+  @keyframes opacityTitle {
+    0%, 70% {
+      opacity: 0;
+      letter-spacing: 5px;
+    }
+    80% {
+      opacity: 1;
+      letter-spacing: 2px;
+    }
+  }
+  h1 {
+    color: white;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-animation: opacityTitle 3s 1s infinite both;
+            animation: opacityTitle 3s 1s infinite both;
+  }

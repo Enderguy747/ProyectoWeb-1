@@ -7,3 +7,17 @@ h1{
  a{
     color:#ECECE7 !important;
 }
+.cuadro{
+    border: 5px dotted #CAECE7 ;
+    margin-top:15px !important;
+    padding:30px !important;
+}
+.banner{
+    
+        width: 100% !important;
+        height: auto !important;
+    
+}
+.left{
+ padding-left: 100px !important;
+}

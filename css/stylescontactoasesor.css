@@ -1,0 +1,32 @@
+body{
+    background-color:#174C5B;
+}
+h1{
+    color:#ECECE7;
+}
+ a{
+    color:#ECECE7 !important;
+}
+.cuadro{
+    border: 5px dotted #CAECE7 ;
+    margin-top:15px !important;
+    padding:30px !important;
+}
+.banner{
+    
+    width: 100% !important;
+    height: auto !important;
+    
+}
+.left{
+ padding-left: 100px !important;
+}
+.tituloh1{
+    text-align: center;
+    font-size: 35px;
+}
+.subti{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

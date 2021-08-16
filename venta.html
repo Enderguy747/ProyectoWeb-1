@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propiedades en venta</title>
-    
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/stylesiconosbarraizquierda.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-proyecto ">
         <div class="container-fluid">
@@ -37,8 +44,10 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Propiedades&nbsp; </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a style="color: black !important" class="dropdown-item" href="alquileres.html">Alquiler</a></li>
-                            <li><a style="color: black !important" class="dropdown-item" href="venta.html">Venta</a></li>
+                            <li><a style="color: black !important" class="dropdown-item"
+                                    href="alquileres.html">Alquiler</a></li>
+                            <li><a style="color: black !important" class="dropdown-item" href="venta.html">Venta</a>
+                            </li>
 
 
                         </ul>
@@ -66,6 +75,111 @@
             </div>
         </div>
     </nav>
-    
+    <hr style="margin-top:50px; width:100%; border-top: 10px solid #ECECE7 ">
+    <!-- contenido-->
+    <div class="container">
+        <div class="row">
+            <div class="col sm-12">
+                <h3 class="texto-proyecto">Guararí, Heredia</h3>
+                <h4>30000$</h4>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col sm-6">
+
+                <div id="carouselVentas" class="carousel slide carousel-fade"
+                    style="width:80% !important; height:auto !important" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Casa01.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Casa01v1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Casa01v2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselVentas"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselVentas"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="col sm-6">
+                <div class="cuadro-pequenio">
+                    <p>
+                        Hermosa casa en Guararí de heredia con amplia cochera y cocina
+                    </p>
+                    <p>
+                        Completamente amueblada. Todo en madera de pino
+                    </p>
+                    <p>
+                        Piso de ceramica francesa importado y muchos detalles mas.
+                    </p>
+                    <ul>
+                        <li>
+                            <p>4 cuartos</p>
+                        </li>
+                        <li>
+                            <p>cochera</p>
+                        </li>
+                        <li>
+                            <p>Ampla cochera</p>
+                        </li>
+                        <li>
+                            <p>Amplio corredor, sala y cocina</p>
+                        </li>
+                        <li>
+                            <p>Patio trasero grande</p>
+                        </li>
+                    </ul>
+                    <div class="caja-boton-compra">
+                        <a class="btn btn-primary boton-compra" href="">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- contenido-->
+    <div class="container-bar">
+        <input type="checkbox" id="btn-social">
+        <label for="btn-social" class="fa fa-play"></label>
+        <div class="icon-social">
+            <a href="https://www.facebook.com/" class="fa fa-facebook">
+                <span id="title">Facebook</span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=RBumgq5yVrA&list=RD2KBFD0aoZy8&index=10" class="fa fa-youtube">
+                <span id="title">Youtube</span>
+            </a>
+            <a href="https://twitter.com/?lang=es" class="fa fa-twitter">
+                <span id="title">Twitter</span>
+            </a>
+            <a href="https://github.com/Enderguy747/ProyectoWeb-1.git" class="fa fa-github">
+                <span id="title">Github</span>
+            </a>
+            <a href="https://wa.me/message/ZIECCXD2LPF6M1" class="fa fa-whatsapp">
+                <span id="title">Whatsapp</span>
+            </a>
+        </div>
+    </div>
+    <hr style="margin-top:50px; border-top: 10px solid #ECECE7 ">
+    <footer class="page-footer font-small blue">
+        <div style="color: #ECECE7;" class="footer-copyright text-center py-3">© <span>2021</span> Copyright:
+            A&D Bienes y Raices
+        </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>

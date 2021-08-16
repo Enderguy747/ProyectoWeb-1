@@ -1,7 +1,7 @@
 body{
     background-color:#174C5B;
 }
-h1{
+h1,h2,h4,p{
     color:#ECECE7;
 }
  a{
@@ -20,4 +20,21 @@ h1{
 }
 .left{
  padding-left: 100px !important;
+}
+.cuadro-pequenio{
+    border: 2px dotted #CAECE7 ;
+    margin-top:15px !important;
+    padding:15px !important;
+}
+.navbar-brand :hover{
+background-color: #174C5B !important ;
+}
+.nav-item:hover{
+    background-color: #174C5B !important ;
+}
+.pagina-actual{
+    background-color: #174C5B !important ;
+}
+.link{
+   text-decoration: none !important; 
 }

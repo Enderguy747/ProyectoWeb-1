@@ -43,6 +43,8 @@ background-color: #174C5B !important ;
 }
 .pagina-actual{
     background-color: #174C5B !important ;
+    height: 2px !important ;
+    width: 60% !important;
 }
 .link{
    text-decoration: none !important; 

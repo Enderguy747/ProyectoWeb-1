@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos a pagar</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="/css/stylesiconosbarraizquierda.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<style>
+    .rounded {
+        border-radius: 1rem
+    }
+
+    .nav-pills .nav-link {
+        color: #555
+    }
+
+    .nav-pills .nav-link.active {
+        color: white
+    }
+
+    input[type="radio"] {
+        margin-right: 5px
+    }
+
+    .bold {
+        font-weight: bold
+    }
+</style>
+
+<body>
+    <!--modal-->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content p-4" style="background-color: #0F3D48; align-items: center;border-radius: 30px;">
+                <div class='top'> <img class="img-thumbnail"
+                        src="images/login.svg" />
+                    <h1 class="headr">Listo!</h1>
+                </div>
+                <div class="modal-header border-0 mb-2">
+                    <div class="modal-title" id="exampleModalLabel" style="text-align: center;">
+                        <h2>Las llaves son tuyas!!!</h2>
+                        <h4>Gacias por su pago</h4>
+                    </div>
+                </div>
+                <div class="modal-body"> <a href="index.html" class="btn btn-primary">Gracias por su pago!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--end-->
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-proyecto ">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html"><img src="images/favicon.png" width="50" height="30"
+                    alt="Home icon" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="quienessomos.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Quienes somos&nbsp;</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a style="color: black !important" class="dropdown-item"
+                                    href="visionyobjetivos.html">Visión y Objetivos de
+                                    la empresa</a></li>
+                            <li><a style="color: black !important" class="dropdown-item" href="quienessomos.html">Acerca
+                                    de Nosotros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Propiedades&nbsp; </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a style="color: black !important" class="dropdown-item"
+                                    href="alquileres.html">Alquiler</a></li>
+                            <li><a style="color: black !important" class="dropdown-item" href="venta.html">Venta</a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacto&nbsp; </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdow">
+
+
+                            <li><a style="color: black !important" class="dropdown-item"
+                                    href="contacto-mensaje.html">Envianos un
+                                    mensaje</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ&nbsp;</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <hr style="margin-top:50px; width:100%; border-top: 10px solid #ECECE7 ">
+
+
+    <div class="container py-5">
+
+        <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-6">Ultimo Paso y las llaves son suyas!!!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="card ">
+                    <div class="card-header">
+                        <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                            <!-- Credit card form tabs -->
+                            <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
+                                <li class="nav-item"> <a data-toggle="pill" href="#credit-card"
+                                        class="nav-link active "> <i class="fas fa-credit-card mr-2"></i> Tarjeta de
+                                        credito o debito
+                                    </a> </li>
+                            </ul>
+                        </div> <!-- End -->
+                        <!-- Credit card form content -->
+                        <div class="tab-content">
+                            <!-- credit card info-->
+                            <div id="credit-card" class="tab-pane fade show active pt-3">
+                                <form role="form" onsubmit="event.preventDefault()">
+                                    <div class="form-group"> <label for="username">
+                                            <h6>Titular de la terjeta</h6>
+                                        </label> <input type="text" name="username" placeholder="Nombre" required
+                                            class="form-control "> </div>
+                                    <div class="form-group"> <label for="cardNumber">
+                                            <h6>Numero de tarjeta</h6>
+                                        </label>
+                                        <div class="input-group"> <input type="text" name="cardNumber"
+                                                placeholder="Numero de tarjeta valido" class="form-control " required>
+                                            <div class="input-group-append"> <span class="input-group-text text-muted">
+                                                    <i class="fab fa-cc-visa mx-1"></i> <i
+                                                        class="fab fa-cc-mastercard mx-1"></i> <i
+                                                        class="fab fa-cc-amex mx-1"></i> </span> </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <div class="form-group"> <label><span class="hidden-xs">
+                                                        <h6>Fecha de expiración</h6>
+                                                    </span></label>
+                                                <div class="input-group"> <input type="number" placeholder="MM" name=""
+                                                        class="form-control" required> <input type="number"
+                                                        placeholder="YY" name="" class="form-control" required> </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group mb-4"> <label data-toggle="tooltip"
+                                                    title="Three digit CV code on the back of your card">
+                                                    <h6>CVC</h6>
+                                                </label> <input type="text" required class="form-control"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer"> <button type="button"
+                                            class="subscribe btn btn-primary btn-block shadow-sm" data-toggle="modal"
+                                            data-target="#exampleModal"> Realizar pago
+                                        </button>
+
+                                </form>
+                            </div>
+                        </div> <!-- End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-bar">
+            <input type="checkbox" id="btn-social">
+            <label for="btn-social" class="fa fa-play"></label>
+            <div class="icon-social">
+                <a href="https://www.facebook.com/" class="fa fa-facebook">
+                    <span id="title">Facebook</span>
+                </a>
+                <a href="https://www.youtube.com/watch?v=RBumgq5yVrA&list=RD2KBFD0aoZy8&index=10" class="fa fa-youtube">
+                    <span id="title">Youtube</span>
+                </a>
+                <a href="https://twitter.com/?lang=es" class="fa fa-twitter">
+                    <span id="title">Twitter</span>
+                </a>
+                <a href="https://github.com/Enderguy747/ProyectoWeb-1.git" class="fa fa-github">
+                    <span id="title">Github</span>
+                </a>
+                <a href="https://wa.me/message/ZIECCXD2LPF6M1" class="fa fa-whatsapp">
+                    <span id="title">Whatsapp</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <hr style="margin-top:50px; border-top: 10px solid #ECECE7 ">
+    <footer class="page-footer font-small blue">
+
+
+        <div style="color: #ECECE7;" class="footer-copyright text-center py-3">© <span>2021</span> Copyright:
+            A&D Bienes y Raices
+        </div>
+
+
+    </footer>
+
+
+    <script src="js/bootstrap.js"></script>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>

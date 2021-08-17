@@ -1,6 +1,9 @@
 body{
     background-color:#174C5B;
 }
+.texto-proyecto{
+    color:#ECECE7;
+}
 h1,h2,h4,p{
     color:#ECECE7;
 }
@@ -14,16 +17,22 @@ h1,h2,h4,p{
 }
 .banner{
     
-        width: 100% !important;
-        height: auto !important;
+width: 100% !important;
+height: auto !important;
     
 }
+.image-venta-alquiler{
+    padding-top: 50px !important;
+    width: 60% !important;
+    height: auto !important;
+}
+
 .left{
  padding-left: 100px !important;
 }
 .cuadro-pequenio{
-    border: 2px dotted #CAECE7 ;
-    margin-top:15px !important;
+    border: 2px dotted #CAECE7 !important ;
+    margin-top:2px !important;
     padding:15px !important;
 }
 .navbar-brand :hover{
@@ -34,7 +43,21 @@ background-color: #174C5B !important ;
 }
 .pagina-actual{
     background-color: #174C5B !important ;
+    height: 2px !important ;
+    width: 60% !important;
 }
 .link{
    text-decoration: none !important; 
 }
+
+.caja-boton-compra{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+}
+
+.boton-compra{
+    display: block; 
+    align-self: auto;
+}
+
